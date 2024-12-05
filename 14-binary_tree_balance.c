@@ -20,7 +20,7 @@ return (1 + (max(binary_tree_height(tree->left), binary_tree_height(tree->right)
 */
 size_t max(size_t a, size_t b)
 {
-return (a > b) ? a : b;
+return ((a > b) ? a : b);
 }
 /**
 * binary_tree_balance - Measures the balance factor of a binary tree
